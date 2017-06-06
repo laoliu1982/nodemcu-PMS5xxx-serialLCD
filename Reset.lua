@@ -1,0 +1,5 @@
+require("pms")
+pms.disablePMS()
+tmr.delay(3000000)
+print("restart")
+node.restart()
